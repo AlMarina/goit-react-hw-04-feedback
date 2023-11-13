@@ -1,0 +1,42 @@
+@import-normalize; /* bring in normalize.css styles */
+
+:root {
+  --color-white: #ffffff;
+  --color-blue: rgb(138, 213, 242);
+  --color-violet: rgb(172, 57, 174);
+  --color-red: rgb(230, 64, 64);
+  --color-green: rgb(83, 207, 83);
+  --color-gray: rgb(234, 228, 228);
+  --color-text-first: #000000;
+  --color-text-second: rgb(136, 129, 129);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
