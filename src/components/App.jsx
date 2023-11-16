@@ -34,7 +34,6 @@ export const App = () => {
   };
 
   const total = countTotalFeedback();
-  const arrayOptions = ['good', 'neutral', 'bad'];
 
   return (
     <div
@@ -49,7 +48,7 @@ export const App = () => {
     >
       <Section title="Please leave feedback">
         <FeedbackOptions
-          options={arrayOptions}
+          options={Object.keys({ good, neutral, bad })}
           onLeaveFeedback={onLeaveFeedback}
         />
       </Section>
